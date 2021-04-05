@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+	@apply text-2xl bg-svelte-prime text-white py-2 px-6 rounded shadow-lg relative active:top-0.5;
+}

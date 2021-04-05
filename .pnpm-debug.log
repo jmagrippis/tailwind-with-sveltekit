@@ -1,0 +1,310 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "tailwind-with-sveltekit",
+      "version": "0.0.1",
+      "scripts": {
+        "dev": "svelte-kit dev",
+        "build": "svelte-kit build",
+        "start": "svelte-kit start",
+        "lint": "prettier --check . && eslint --ignore-path .gitignore .",
+        "format": "prettier --write ."
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-node": "next",
+        "@sveltejs/kit": "next",
+        "svelte": "^3.29.0",
+        "vite": "^2.1.0",
+        "typescript": "^4.0.0",
+        "tslib": "^2.0.0",
+        "svelte-preprocess": "^4.0.0",
+        "@typescript-eslint/eslint-plugin": "^4.19.0",
+        "@typescript-eslint/parser": "^4.19.0",
+        "eslint": "^7.22.0",
+        "eslint-plugin-svelte3": "^3.1.0",
+        "prettier": "~2.2.1",
+        "prettier-plugin-svelte": "^2.2.0",
+        "eslint-config-prettier": "^8.1.0"
+      },
+      "type": "module"
+    },
+    "prefix": "/Users/jmagrippis/Code/tailwind-with-sveltekit"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/jmagrippis/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/jmagrippis/Code/tailwind-with-sveltekit/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-config-prettier/8.1.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-config-prettier",
+      "rawSpec": "^8.1.0"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-config-prettier/8.1.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-plugin-svelte3/3.1.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-plugin-svelte3",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/3.1.2",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.1.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tslib",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.1.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier/2.2.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier",
+      "rawSpec": "~2.2.1"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/2.2.1",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier-plugin-svelte/2.2.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier-plugin-svelte",
+      "rawSpec": "^2.2.0"
+    }
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.2.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-config-prettier/8.1.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-preprocess/4.7.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-preprocess",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.7.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "17 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint/7.23.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint",
+      "rawSpec": "^7.22.0"
+    }
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint/7.23.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/3.1.2",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "20 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vite/2.1.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vite",
+      "rawSpec": "^2.1.0"
+    }
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vite/2.1.5",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.1.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "23 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.37.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.29.0"
+    }
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.37.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/2.2.1",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.2.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.7.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "28 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint/7.23.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vite/2.1.5",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.37.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "31 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/eslint-plugin/4.20.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@typescript-eslint/eslint-plugin",
+      "rawSpec": "^4.19.0"
+    }
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/eslint-plugin/4.20.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "33 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/parser/4.20.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@typescript-eslint/parser",
+      "rawSpec": "^4.19.0"
+    }
+  },
+  "34 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/parser/4.20.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "35 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/parser/4.20.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "36 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/eslint-plugin/4.20.0",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "37 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/4.2.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "38 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.2.3",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.2.3",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "40 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/adapter-node/1.0.0-next.12",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/adapter-node",
+      "rawSpec": "next"
+    }
+  },
+  "41 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-node/1.0.0-next.12",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "resolved"
+  },
+  "42 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-node/1.0.0-next.12",
+    "requester": "/Users/jmagrippis/Code/tailwind-with-sveltekit",
+    "status": "found_in_store"
+  },
+  "43 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.71",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/kit",
+      "rawSpec": "next"
+    }
+  },
+  "44 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.71: wanted: {\"node\":\">= 12.17.0\"} (current: {\"node\":\"v12.6.0\",\"pnpm\":\"5.18.8\"})",
+    "prefix": "/Users/jmagrippis/Code/tailwind-with-sveltekit"
+  },
+  "45 error pnpm": {
+    "message": {
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.71",
+      "wanted": {
+        "node": ">= 12.17.0"
+      },
+      "current": {
+        "node": "v12.6.0",
+        "pnpm": "5.18.8"
+      }
+    },
+    "err": {
+      "name": "Error",
+      "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.71: wanted: {\"node\":\">= 12.17.0\"} (current: {\"node\":\"v12.6.0\",\"pnpm\":\"5.18.8\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "Error: Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.71: wanted: {\"node\":\">= 12.17.0\"} (current: {\"node\":\"v12.6.0\",\"pnpm\":\"5.18.8\"})\n    at Object.checkEngine [as default] (/usr/local/Cellar/pnpm/5.18.8/libexec/lib/node_modules/pnpm/dist/pnpm.js:37935:14)\n    at checkPackage (/usr/local/Cellar/pnpm/5.18.8/libexec/lib/node_modules/pnpm/dist/pnpm.js:38075:83)\n    at Object.packageIsInstallable [as default] (/usr/local/Cellar/pnpm/5.18.8/libexec/lib/node_modules/pnpm/dist/pnpm.js:38045:18)\n    at resolveDependency (/usr/local/Cellar/pnpm/5.18.8/libexec/lib/node_modules/pnpm/dist/pnpm.js:108967:79)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n    at async resolveDependenciesOfDependency (/usr/local/Cellar/pnpm/5.18.8/libexec/lib/node_modules/pnpm/dist/pnpm.js:108691:37)\n    at async Promise.all (index 1)\n    at async Object.resolveDependencies [as default] (/usr/local/Cellar/pnpm/5.18.8/libexec/lib/node_modules/pnpm/dist/pnpm.js:108661:27)\n    at async /usr/local/Cellar/pnpm/5.18.8/libexec/lib/node_modules/pnpm/dist/pnpm.js:109187:45\n    at async Promise.all (index 0)"
+    }
+  }
+}
